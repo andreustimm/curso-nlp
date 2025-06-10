@@ -1,0 +1,416 @@
+# ===================================================================
+# CURSO DE NLP - .gitignore
+# ===================================================================
+
+# ===================================================================
+# PYTHON
+# ===================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===================================================================
+# MACHINE LEARNING & DATA SCIENCE
+# ===================================================================
+
+# Trained models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+
+# TensorFlow
+*.tfevents.*
+logs/
+checkpoints/
+saved_models/
+tensorboard_logs/
+
+# PyTorch
+lightning_logs/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# Model artifacts
+artifacts/
+models/
+trained_models/
+saved_models/
+model_checkpoints/
+
+# ===================================================================
+# NLP ESPECÍFICO
+# ===================================================================
+
+# Word embeddings
+*.vec
+*.bin
+*.txt.gz
+embeddings/
+word2vec/
+fasttext/
+glove/
+
+# Spacy models
+*.whl
+
+# NLTK data (se baixado localmente)
+nltk_data/
+
+# Datasets grandes
+datasets/large/
+data/raw/
+data/processed/
+corpus/
+*.csv.gz
+*.json.gz
+*.tsv.gz
+
+# Language models
+language_models/
+*.lm
+*.arpa
+
+# Transformers cache
+transformers_cache/
+.cache/
+huggingface/
+
+# ===================================================================
+# JUPYTER & IDE
+# ===================================================================
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# JupyterLab settings
+.jupyter/
+.jupyterlab-settings/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===================================================================
+# SISTEMA OPERACIONAL
+# ===================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================================================
+# LOGS & TEMPORÁRIOS
+# ===================================================================
+
+# Log files
+*.log
+logs/
+*.out
+*.err
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Output files
+output/
+outputs/
+results/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!docs/**/*.pdf
+!docs/**/*.svg
+
+# ===================================================================
+# CONFIGURAÇÕES LOCAIS
+# ===================================================================
+
+# Local configuration
+config.local.py
+settings.local.py
+.env.local
+.env.production
+secrets.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ===================================================================
+# DOCKER & DEPLOYMENT
+# ===================================================================
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# ===================================================================
+# ANÁLISE & PROFILING
+# ===================================================================
+
+# Profiling
+*.prof
+*.profile
+.prof/
+
+# Memory profiling
+*.memprof
+
+# ===================================================================
+# TESTES & BENCHMARKS
+# ===================================================================
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Benchmark results
+benchmark_results/
+*.benchmark
+
+# ===================================================================
+# DOCUMENTAÇÃO
+# ===================================================================
+
+# Sphinx
+docs/_build/
+docs/build/
+
+# ===================================================================
+# PERMISSÕES ESPECIAIS
+# ===================================================================
+
+# Manter estrutura de diretórios vazios
+!**/.gitkeep
+
+# Arquivos importantes para manter
+!requirements.txt
+!setup.py
+!setup_curso.py
+!README.md
+!LICENSE
+!.gitignore
+
+# ===================================================================
+# PROJETO ESPECÍFICO
+# ===================================================================
+
+# Dados sensíveis ou grandes
+data/private/
+data/raw/large/
+datasets/external/
+
+# Modelos treinados localmente
+modelo_sentimentos.pkl
+*.model.pkl
+*_trained_model.*
+
+# Notebooks de experimentos pessoais
+experimentos/
+scratch/
+playground/
+test_*.ipynb
+*_teste.ipynb
+
+# Arquivos de configuração específicos
+config_local.py
+api_keys.py
+credentials.json 

@@ -1,0 +1,27 @@
+# Ignorar todos os arquivos por padrão
+*
+
+# Mas manter arquivos Python com dados de exemplo
+!*.py
+
+# Manter estrutura de diretórios
+!.gitignore
+!.gitkeep
+
+# Permitir arquivos pequenos de exemplo
+!exemplo_*.txt
+!sample_*.csv
+!demo_*.json
+
+# Ignorar arquivos grandes
+*.gz
+*.zip
+*.tar
+*.bz2
+*.xz
+
+# Ignorar datasets baixados
+raw/
+processed/
+external/
+large/ 
