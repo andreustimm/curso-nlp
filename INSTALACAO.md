@@ -30,10 +30,10 @@ jupyter notebook
 ## 📋 Pré-requisitos
 
 ### Sistema Operacional
-- **Windows 10+**, **macOS 10.14+**, ou **Linux Ubuntu 18.04+**
-- **Python 3.8 ou superior**
+- **Windows 10/11**, **macOS 11+**, ou **Linux Ubuntu 20.04+**
+- **Python 3.9 ou superior**
 - **8GB RAM** (recomendado: 16GB)
-- **5GB espaço livre** em disco
+- **10GB espaço livre** em disco
 
 ### Conhecimentos Prévios
 - **Python básico**: variáveis, funções, classes
@@ -86,42 +86,51 @@ poetry shell
 ### Bibliotecas de NLP
 ```bash
 # NLTK - Natural Language Toolkit
-pip install nltk==3.8.1
+pip install nltk>=3.6.0
 
 # spaCy - Industrial-strength NLP
-pip install spacy==3.4.4
+pip install spacy>=3.4.0
 python -m spacy download pt_core_news_sm
 
 # Transformers - Estado da arte
-pip install transformers==4.25.1
+pip install transformers>=4.15.0
 
 # Gensim - Topic modeling
-pip install gensim==4.2.0
+pip install gensim>=4.1.0
 ```
 
-### Machine Learning
+### Machine Learning e Deep Learning
 ```bash
 # Scikit-learn
-pip install scikit-learn==1.2.0
+pip install scikit-learn>=1.0.0
 
 # TensorFlow
-pip install tensorflow==2.11.0
+pip install tensorflow>=2.8.0
 
-# PyTorch (opcional)
-pip install torch==1.13.1
+# PyTorch
+pip install torch>=1.11.0
 ```
 
 ### Visualização e Análise
 ```bash
 # Jupyter e extensões
-pip install jupyter==1.0.0
-pip install ipywidgets==8.0.4
+pip install jupyter>=1.0.0
+pip install ipywidgets>=7.6.0
 
 # Visualização
-pip install matplotlib==3.6.2
-pip install seaborn==0.12.1
-pip install plotly==5.11.0
-pip install wordcloud==1.9.2
+pip install matplotlib>=3.4.0
+pip install seaborn>=0.11.0
+pip install plotly>=5.0.0
+pip install wordcloud>=1.8.0
+```
+
+### Ferramentas Adicionais
+```bash
+# APIs e Utilitários
+pip install fastapi>=0.70.0
+pip install streamlit>=1.15.0
+pip install python-dotenv>=0.19.0
+pip install python-pptx  # Para geração de slides
 ```
 
 ## 🔧 Configuração Específica por Sistema
@@ -179,6 +188,11 @@ print(f"✅ spaCy funcionando: {[token.text for token in doc]}")
 classifier = pipeline("sentiment-analysis")
 result = classifier("I love this course!")
 print(f"✅ Transformers funcionando: {result}")
+
+# Testar geração de texto (para módulo de Prompt Engineering)
+generator = pipeline("text-generation")
+result = generator("O curso de NLP é", max_length=30)
+print(f"✅ Geração de texto funcionando: {result[0]['generated_text']}")
 ```
 
 ### Script de Diagnóstico
@@ -207,6 +221,13 @@ try:
     print(f'✅ Transformers: {transformers.__version__}')
 except ImportError:
     print('❌ Transformers não encontrado')
+
+try:
+    from transformers import pipeline
+    generator = pipeline('text-generation')
+    print('✅ Pipeline de geração funcionando')
+except:
+    print('❌ Problema com pipeline de geração')
 "
 ```
 
@@ -215,7 +236,7 @@ except ImportError:
 ### Erro: "No module named 'xxx'"
 ```bash
 # Verificar se o ambiente virtual está ativo
-which python
+which python  # ou where python no Windows
 pip list
 
 # Reinstalar a biblioteca
@@ -251,12 +272,16 @@ pip install jupyter
 jupyter notebook --port=8889
 ```
 
-### Problemas de Memória
+### Problemas de Memória com Modelos de Linguagem
 ```python
 # Configurar para usar menos memória
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # TensorFlow
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'  # Transformers
+
+# Para modelos grandes, usar configuração de baixa memória
+from transformers import pipeline
+generator = pipeline('text-generation', model='gpt2', device_map='auto')
 ```
 
 ## 🐳 Docker (Opcional)

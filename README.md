@@ -94,6 +94,13 @@ Este curso foi desenvolvido para ensinar Processamento de Linguagem Natural (NLP
 - Análise de sentimentos em redes sociais
 - Sistema de Q&A
 
+#### [**Módulo 11: Prompt Engineering**](modulo_11_prompt_engineering/README.md)
+- Fundamentos do Prompt Engineering
+- Técnicas avançadas de prompting
+- Casos de uso e aplicações
+- Boas práticas e otimização
+- Exercícios práticos
+
 ### 🚀 Como Começar
 
 1. **Instale as dependências:**
@@ -124,6 +131,7 @@ curso/
 ├── modulo_08_transformers/
 ├── modulo_09_tarefas_avancadas/
 ├── modulo_10_projetos_praticos/
+├── modulo_11_prompt_engineering/
 ├── datasets/
 └── utils/
 ```

@@ -17,17 +17,18 @@ Este curso oferece uma jornada completa em **Processamento de Linguagem Natural 
 - **Semana 1**: Módulos 1-3 (Fundamentos + Pré-processamento + Análise)
 - **Semana 2**: Módulos 4-5 (Representação + Classificação)
 - **Semana 3**: Módulos 6-8 (Sequências + Deep Learning + Transformers)
-- **Semana 4**: Módulos 9-10 (Tarefas Avançadas + Projetos)
+- **Semana 4**: Módulos 9-11 (Tarefas Avançadas + Projetos + Prompt Engineering)
 
 ### **Modalidade Regular (8 semanas)**
 - **Semanas 1-2**: Módulos 1-2 (Base sólida)
 - **Semanas 3-4**: Módulos 3-4 (Análise e representação)
 - **Semanas 5-6**: Módulos 5-7 (ML tradicional e deep learning)
-- **Semanas 7-8**: Módulos 8-10 (Estado da arte e projetos)
+- **Semanas 7-8**: Módulos 8-11 (Estado da arte, projetos e prompt engineering)
 
 ### **Modalidade Estendida (12 semanas)**
 - **1 módulo por semana** com tempo para projetos extras
-- **Semanas 11-12**: Projetos pessoais e portfólio
+- **Semana 11**: Prompt Engineering
+- **Semana 12**: Projetos pessoais e portfólio
 
 ## 📚 Estrutura Detalhada dos Módulos
 
@@ -157,6 +158,20 @@ Este curso oferece uma jornada completa em **Processamento de Linguagem Natural 
 - ✅ API REST para modelos
 - ✅ Interface web para demonstração
 
+### **Módulo 11: Prompt Engineering** ⏱ 8-10 horas
+**Objetivos**: Dominar técnicas de engenharia de prompts para LLMs
+- Fundamentos do Prompt Engineering
+- Técnicas avançadas de prompting (Zero-shot, Few-shot, Chain-of-Thought)
+- Casos de uso e aplicações práticas
+- Boas práticas e otimização
+- Exercícios práticos e projetos
+
+**Entregáveis**:
+- ✅ Sistema de análise de sentimento com prompts otimizados
+- ✅ Gerador de código documentado usando prompts
+- ✅ Sistema de análise de feedback com prompts em cadeia
+- ✅ Portfólio de prompts para diferentes casos de uso
+
 ## 🛠 Tecnologias e Ferramentas
 
 ### **Bibliotecas Principais**
@@ -226,6 +241,7 @@ Para obter o certificado, o aluno deve:
 - **Information Extraction**: Extração de conhecimento
 - **Computational Linguistics**: Aspectos linguísticos
 - **MLOps para NLP**: Produção e monitoramento
+- **Prompt Engineering**: Otimização de interações com LLMs
 
 ### **Recursos para Continuar Aprendendo**
 - Papers recentes em conferências (ACL, EMNLP, NAACL)
@@ -251,7 +267,7 @@ Para obter o certificado, o aluno deve:
 - **Mentoria**: Acompanhamento personalizado
 - **Alumni Network**: Rede de ex-alunos
 
-**Tempo total estimado**: 60-80 horas de estudo
+**Tempo total estimado**: 68-90 horas de estudo
 **Duração recomendada**: 8-12 semanas
 **Nível**: Intermediário a Avançado
 **Pré-requisitos**: Python, matemática básica, ML conceitos 
