@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 3: Análise Estatística de Texto
 
 ## 🎯 Objetivos do Módulo
@@ -261,4 +263,6 @@ No **Módulo 4**, vamos aprender sobre representação vetorial de texto, inclui
 
 ---
 
-**Dica**: Execute o notebook `03_analise_estatistica.ipynb` para aplicar todos os conceitos na prática! 
+**Dica**: Execute o notebook `03_analise_estatistica.ipynb` para aplicar todos os conceitos na prática!
+
+[⬅️ Voltar para o índice do curso](../README.md) 

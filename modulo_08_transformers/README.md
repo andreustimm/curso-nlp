@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 8: Transformers e Modelos Pré-treinados
 
 ## 🎯 Objetivos do Módulo
@@ -350,3 +352,5 @@ No **Módulo 9**, aplicaremos transformers em tarefas avançadas como NER, sumar
 ---
 
 **Dica**: Execute o notebook `08_transformers_modelos_pretreinados.ipynb` para experimentar com modelos state-of-the-art! 
+
+[⬅️ Voltar para o índice do curso](../README.md) 

@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 6: Modelos de Sequência
 
 ## 🎯 Objetivos do Módulo
@@ -211,4 +213,6 @@ No **Módulo 7**, mergulharemos em deep learning para NLP com RNNs, LSTMs e atte
 
 ---
 
-**Dica**: Execute o notebook `06_modelos_sequencia.ipynb` para implementar todos os modelos! 
+**Dica**: Execute o notebook `06_modelos_sequencia.ipynb` para implementar todos os modelos!
+
+[⬅️ Voltar para o índice do curso](../README.md) 

@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 2: Pré-processamento de Texto
 
 ## 🎯 Objetivos do Módulo
@@ -264,4 +266,6 @@ No **Módulo 3**, vamos explorar análise estatística de texto, incluindo anál
 
 ---
 
-**Dica**: Execute o notebook `02_preprocessamento_texto.ipynb` para praticar todas as técnicas! 
+**Dica**: Execute o notebook `02_preprocessamento_texto.ipynb` para praticar todas as técnicas!
+
+[⬅️ Voltar para o índice do curso](../README.md) 

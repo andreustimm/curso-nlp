@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 9: Tarefas Avançadas de NLP
 
 ## 🎯 Objetivos do Módulo
@@ -358,3 +360,5 @@ No **Módulo 10**, integraremos tudo em projetos práticos completos para portf�
 ---
 
 **Dica**: Execute o notebook `09_tarefas_avancadas_nlp.ipynb` para implementar sistemas completos! 
+
+[⬅️ Voltar para o índice do curso](../README.md) 

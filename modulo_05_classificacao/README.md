@@ -1,3 +1,5 @@
+[⬅️ Voltar para o índice do curso](../README.md)
+
 # Módulo 5: Classificação de Texto
 
 ## 🎯 Objetivos do Módulo
@@ -335,3 +337,5 @@ No **Módulo 6**, exploraremos modelos de sequência como HMMs e CRFs para taref
 ---
 
 **Dica**: Execute o notebook `05_classificacao_texto.ipynb` para implementar todos os algoritmos! 
+
+[⬅️ Voltar para o índice do curso](../README.md) 
