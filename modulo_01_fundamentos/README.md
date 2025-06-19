@@ -1,4 +1,4 @@
-[⬅️ Voltar para o índice do curso](../README.md)
+[⬅️ Voltar](../README.md)
 
 # Módulo 1: Fundamentos de NLP
 
@@ -185,4 +185,4 @@ No **Módulo 2**, vamos mergulhar no pré-processamento de texto, aprendendo té
 
 **Dica**: Execute o notebook `01_fundamentos_nlp.ipynb` para ver os conceitos na prática!
 
-[⬅️ Voltar para o índice do curso](../README.md) 
+[⬅️ Voltar](../README.md) 

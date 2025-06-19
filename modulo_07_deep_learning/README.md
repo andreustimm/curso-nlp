@@ -1,4 +1,4 @@
-[⬅️ Voltar para o índice do curso](../README.md)
+[⬅️ Voltar](../README.md)
 
 # Módulo 7: Deep Learning para NLP
 
@@ -244,4 +244,4 @@ No **Módulo 8**, exploraremos Transformers e modelos pré-treinados como BERT e
 
 **Dica**: Execute o notebook `07_deep_learning_nlp.ipynb` para implementar todas as arquiteturas! 
 
-[⬅️ Voltar para o índice do curso](../README.md) 
+[⬅️ Voltar](../README.md) 

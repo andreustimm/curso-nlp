@@ -1,4 +1,4 @@
-[⬅️ Voltar para o índice do curso](../README.md)
+[⬅️ Voltar](../README.md)
 
 # Módulo 4: Representação de Texto
 
@@ -340,4 +340,4 @@ No **Módulo 5**, vamos aplicar essas representações para classificação de t
 
 **Dica**: Execute o notebook `04_representacao_texto.ipynb` para experimentar todas as técnicas! 
 
-[⬅️ Voltar para o índice do curso](../README.md) 
+[⬅️ Voltar](../README.md) 
