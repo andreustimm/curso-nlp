@@ -34,61 +34,61 @@ Este curso foi desenvolvido para ensinar Processamento de Linguagem Natural (NLP
 
 ### 📖 Estrutura do Curso
 
-#### **Módulo 1: Fundamentos de NLP**
+#### **Módulo 1: Fundamentos de NLP** [📘](modulo_01_fundamentos/README.md)
 - Introdução ao NLP
 - História e aplicações
 - Desafios em NLP
 - Pipeline básico de NLP
 
-#### **Módulo 2: Pré-processamento de Texto**
+#### **Módulo 2: Pré-processamento de Texto** [📘](modulo_02_preprocessamento/README.md)
 - Tokenização
 - Normalização
 - Stemming e Lemmatização
 - Remoção de stopwords
 - Regex para processamento de texto
 
-#### **Módulo 3: Análise Estatística de Texto**
+#### **Módulo 3: Análise Estatística de Texto** [📘](modulo_03_analise_estatistica/README.md)
 - Análise de frequência
 - N-gramas
 - Medidas de similaridade
 - Análise de sentimentos básica
 
-#### **Módulo 4: Representação de Texto**
+#### **Módulo 4: Representação de Texto** [📘](modulo_04_representacao/README.md)
 - Bag of Words (BoW)
 - TF-IDF
 - Word Embeddings (Word2Vec, GloVe)
 - Métricas de avaliação
 
-#### **Módulo 5: Classificação de Texto**
+#### **Módulo 5: Classificação de Texto** [📘](modulo_05_classificacao/README.md)
 - Naive Bayes
 - SVM para texto
 - Regressão logística
 - Validação cruzada e métricas
 
-#### **Módulo 6: Modelos de Sequência**
+#### **Módulo 6: Modelos de Sequência** [📘](modulo_06_modelos_sequencia/README.md)
 - Modelos de n-gramas
 - Hidden Markov Models
 - Conditional Random Fields
 
-#### **Módulo 7: Deep Learning para NLP**
+#### **Módulo 7: Deep Learning para NLP** [📘](modulo_07_deep_learning/README.md)
 - Redes neurais básicas
 - RNNs e LSTMs
 - CNNs para texto
 - Attention mechanisms
 
-#### **Módulo 8: Transformers e Modelos Pré-treinados**
+#### **Módulo 8: Transformers e Modelos Pré-treinados** [📘](modulo_08_transformers/README.md)
 - Arquitetura Transformer
 - BERT e variações
 - GPT e modelos generativos
 - Fine-tuning
 
-#### **Módulo 9: Tarefas Avançadas de NLP**
+#### **Módulo 9: Tarefas Avançadas de NLP** [📘](modulo_09_tarefas_avancadas/README.md)
 - Named Entity Recognition (NER)
 - Question Answering
 - Sumarização de texto
 - Tradução automática
 
-#### **Módulo 10: Projetos Práticos**
+#### **Módulo 10: Projetos Práticos** [📘](modulo_10_projetos_praticos/README.md)
 - Sistema de recomendação de conteúdo
 - Chatbot inteligente
 - Análise de sentimentos em redes sociais
