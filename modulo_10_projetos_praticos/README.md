@@ -1,4 +1,4 @@
-[⬅️ Voltar](../README.md)
+[⬅️ **Voltar**](../README.md)
 
 # Módulo 10: Projetos Práticos
 
@@ -426,4 +426,4 @@ Cada projeto deve incluir:
 
 **Dica**: Execute o notebook `10_projetos_praticos.ipynb` para templates de todos os projetos!
 
-[⬅️ Voltar](../README.md) 
+[⬅️ **Voltar**](../README.md) 

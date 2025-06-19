@@ -1,4 +1,4 @@
-[⬅️ Voltar](../README.md)
+[⬅️ **Voltar**](../README.md)
 
 # Módulo 5: Classificação de Texto
 
@@ -338,4 +338,4 @@ No **Módulo 6**, exploraremos modelos de sequência como HMMs e CRFs para taref
 
 **Dica**: Execute o notebook `05_classificacao_texto.ipynb` para implementar todos os algoritmos! 
 
-[⬅️ Voltar](../README.md) 
+[⬅️ **Voltar**](../README.md) 

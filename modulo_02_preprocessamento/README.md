@@ -1,4 +1,4 @@
-[⬅️ Voltar](../README.md)
+[⬅️ **Voltar**](../README.md)
 
 # Módulo 2: Pré-processamento de Texto
 
@@ -268,4 +268,4 @@ No **Módulo 3**, vamos explorar análise estatística de texto, incluindo anál
 
 **Dica**: Execute o notebook `02_preprocessamento_texto.ipynb` para praticar todas as técnicas!
 
-[⬅️ Voltar](../README.md) 
+[⬅️ **Voltar**](../README.md) 
